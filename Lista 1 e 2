@@ -1,0 +1,410 @@
+1 - programa {
+  funcao inicio() {
+    escreva("Olá, Mundo!")
+  }
+}
+
+2 -programa {
+  funcao inicio() {
+    var cadeia nome
+    escreva("Informe seu nome: ")
+    leia(nome)
+    escreva("Olá ",nome,", é um prazer te conhecer!")
+  }
+}
+
+3 - programa {
+  funcao inicio() {
+   cadeia nome, mes
+   real salario
+   
+  escreva("Informe seu nome: ")
+  leia(nome)
+  escreva("Informe seu salário: ")
+  leia(salario)
+  escreva("Informe o mês atual: ")
+  leia(mes)
+
+  escreva("Nome do funcionário: ",nome)
+  escreva("\nSalário: R$",salario," O funcionário ",nome," tem um salário de R$",salario," no mês de ",mes,".")
+  
+  }
+}
+
+4 -   funcao inicio(){
+    inteiro numero1, numero2, soma
+    escreva("Informe o primeiro valor: ")
+    leia(numero1)
+    escreva("Informe o segundo valor: ")
+    leia(numero2)
+
+    soma= numero1 + numero2
+
+    escreva("A soma entre ",numero1," e ",numero2," é ", soma,)
+
+  }
+}
+
+5 -programa {
+  funcao inicio() {
+    real nota1, nota2, media
+
+    escreva("Informe sua primeira nota: ")
+    leia(nota1)
+    escreva("Informe sua segunda nota: ")
+    leia(nota2)
+
+    media= (nota1+nota2)/2
+    escreva("A média entre ",nota1," e ",nota2," é igual a: ",media)
+  
+  }
+}
+
+6 - 
+programa{
+  funcao inicio(){
+    inteiro x, y, z
+    escreva("Informe um número: ")
+    leia(x)
+      y=x + 1
+      z=x - 1
+    escreva("O antecessor de ",x, " é ",z)
+    escreva("\nO sucessor de ",x, " é ",y)
+    
+  }
+}
+
+7 - programa {
+  funcao inicio() {
+    real num, dobro, parte
+
+    escreva("Informe o número escolhido: ")
+    leia(num)
+  
+    dobro=2 * num
+    parte=num/3
+    
+    escreva("O dobro de ",num," é ",dobro)
+    escreva("\n A terça parte de ",num," é ",parte)
+
+  }
+}
+
+8 - programa{
+  funcao inicio(){
+    real metros, cm, km, dm, hm, dam, mm
+        escreva("Informe a distância escolhida em metros: ")
+        leia(metros)
+      dm=metros*10
+      cm=dm*10
+      dam=metros*10
+      hm=metros*20
+      km=metros*30
+      mm=cm/10
+
+      escreva("A distância de ",metros,"m corresponde a: ")
+      escreva("\n",km,"km")
+      escreva("\n",hm,"hm")
+      escreva("\n",dam,"dam")
+      escreva("\n",dm,"dm")
+      escreva("\n",cm,"cm")
+      escreva("\n",mm,"mm")
+    
+    
+  }
+}
+
+9 -programa {
+  funcao inicio() {
+    real saldo, dol 
+    escreva("Informe seu saldo: ")
+    leia(saldo)
+    dol=saldo*3.45
+
+    escreva("Você possui R$",saldo," na carteira e pode comprar US$",dol," com o saldo disponível")
+    
+
+  }
+}
+
+10 -programa{
+  funcao inicio(){
+     real largura, altura, area, tinta
+     escreva("Informe a largura da parade em metros: ")
+     leia(largura)
+     escreva("Informe a altura da parede em metros: ")
+     leia(altura)
+
+     area=largura*altura
+
+     tinta=area/2
+
+     escreva("A área a ser pintada será de: ",area," sendo necessário ",tinta," litros de tinta para pintar o cômodo por completo")
+    
+    
+  }
+}
+
+11 -programa {
+  funcao inicio() {
+  inteiro val1, val2, valor3, delta
+    escreva("Informe o valor de A: ")
+    leia(val1)
+    escreva("Informe o valor de B: ")
+    leia(val2)
+    escreva("Informe o valor de C: ")
+    leia(valor3)
+
+    delta=(val2^2)-(4*val1*valor3)
+
+    escreva("O valor de Delta é: ",delta)
+  }
+}
+ 
+12 -programa {
+  funcao inicio() {
+  real preco, promo, valor
+  escreva("Informe o valor do prooduto: ")
+  leia(preco)
+
+  promo=preco*0.05
+  valor=preco - promo
+  escreva("O valor com desconto será de R$",valor,)
+  }
+}
+ 
+13 -programa {
+  funcao inicio() {
+  real salario, aumento, final
+  escreva("Informe o valor do prooduto: ")
+  leia(salario)
+
+  aumento=salario*0.15
+  final=salario + aumento
+  escreva("Seu novo salário será de: ",final," reais")
+  }
+}
+ 
+14 -programa {
+  funcao inicio() {
+  real km, total
+  inteiro dias
+    escreva("Informe a quantidade de km percorridos: ")
+    leia(km)
+    escreva("Informe a quantidade de dias que o carro foi alugado: ")
+    leia(dias)
+    total=(dias*90) + (km*0.20)
+    escreva("O valor final será de R$",total)
+  }
+}
+ 
+15 - programa {
+  funcao inicio() {
+  real dias, salario
+    escreva("Informe o número de dias trabalhados: ")
+    leia(dias)
+    salario=(8*25) *dias
+    escreva("Seu salário será de R$",salario)
+  }
+}
+  
+16 - programa {
+  funcao inicio() {
+  inteiro cdias, anos, tempo, totaldias, horas
+
+  escreva("Quantos cigarros você fuma por dia: ")
+  leia(cdias)
+  escreva("Informe a quantos anos você fuma: ")
+  leia(anos)
+   
+   totaldias=anos*365
+   tempo=10*(cdias*totaldias)
+   horas=tempo/60
+
+   escreva("O tempo total perdido será de: ",horas," dias")
+
+  }
+}
+
+
+17 -programa {
+  funcao inicio() {
+    inteiro velocidade, multa
+
+    escreva("Informe a velocidade do veículo: ")
+    leia(velocidade)
+      se(velocidade>80){
+      escreva("Você foi multado em ",(velocidade-80)*5," reais")
+      }
+      senao se(velocidade<=80){
+        escreva("Você não ultrapassou o limite de velocidade")
+      }
+
+      
+    
+  }
+}
+
+18 - programa {
+  funcao inicio() {
+    inteiro idade, ano
+
+    escreva("Insira seu ano de nascimento: ")
+    leia(ano)
+    idade = 2023 - ano
+    se (idade > 15) {
+      escreva("Você pode votar")
+     }
+     senao se idade < 15
+      escreva("Você não pode votar")
+
+    }
+
+    
+  }
+}
+
+19 - programa {
+  funcao inicio() {
+    real nota1, nota2, media
+    cadeia nome
+
+      escreva("Qual o seu nome ? ")
+      leia(nome)
+      escreva("Qual foi sua primeira nota ? ")
+      leia(nota1)
+      escreva("Qual foi sua segunda nota ? ")
+      leia(nota2)
+
+        media= (nota1 + nota2)/2
+
+      se(media>=7){
+        escreva("O aluno ",nome," teve um bom aproveitamento com média: ",media)
+      }
+      senao se(media<7){
+        escreva("O aluno ",nome," não teve um bom aproveitamento com média: ",media)
+      }
+
+      
+    
+  }
+}
+
+20 -
+programa {
+  funcao inicio() {
+      inteiro numero
+
+      escreva("Digite o número escolhido: ")
+      leia(numero)
+
+      se(numero % 2==0){
+        escreva("O número é par")
+      }senao{
+        escreva("O número é ímpar")
+      }
+
+
+      
+    
+  }
+}
+
+21 - 
+programa {
+  funcao inicio() {
+      inteiro ano
+
+      escreva("Informe o ano atual: ")
+      leia(ano)
+
+      se(ano % 4==0){
+        escreva("O ano é bissexto")
+      }senao{
+        escreva("O ano não é bissexto")
+      }
+  }
+}
+
+22 -programa {
+  funcao inicio() {
+      inteiro nascimento, idade, resto
+
+      escreva("Informe o ano de seu nascimento: ")
+      leia(nascimento)
+
+      idade= 2023 - nascimento
+
+      resto= 18 - idade
+
+      se(idade>=18){
+        escreva("Você pode se alistar")
+      }senao{
+        escreva("Você ainda não pode se alistar até passarem ",resto," anos")
+
+      }
+
+  }
+}
+
+23 - programa {
+  funcao inicio() {
+    inteiro sexo 
+    real desconto, valor, desconto1, desconto2
+    cadeia nome
+
+    escreva("Se você for homem escreva 1 e se for mulher escreva 2: ")
+    leia(sexo)
+    escreva("Informe seu nome: ")
+    leia(nome)
+    escreva("Informe o valor total da sua compra: ")
+    leia(valor)
+
+    se(sexo==1){
+      escreva("O valor final da compra será de: ",desconto1=valor - (valor*0.05)," reais")
+   }
+   senao se(sexo==2){
+    escreva("O valor final da compra será de: ",desconto1=valor - (valor*0.13)," reais")
+   }
+  }
+}
+
+24 -programa {
+
+  funcao inicio() {
+   real distancia, total
+
+    escreva("Informe a distância desejada: ")
+    leia(distancia)
+
+    se(distancia<=200){
+      escreva("O valor da viagem será de: ",total=distancia * 0.50," reais")
+    }se(distancia>200){
+      escreva("O valor da viagem será de: ",total=distancia * 0.45," reais")
+    }
+  }
+}
+
+25 - 
+programa {
+  funcao inicio() {
+   real: lado1, lado2, lado3
+
+inicio
+   escreva("Digite o tamanho do primeiro lado: ")
+   leia(lado1)
+   
+   escreva("Digite o tamanho do segundo lado: ")
+   leia(lado2)
+   
+   escreva("Digite o tamanho do terceiro lado: ")
+   leia(lado3)
+   
+   se ((lado1 < lado2 + lado3) e (lado2 < lado1 + lado3) e (lado3 < lado1 + lado2)){ entao
+      escreva("Com esses lados é possível formar um triângulo.")
+   }senao{
+      escreva("Com esses lados não é possível formar um triângulo.")
+    }
+    
+  }
+}
